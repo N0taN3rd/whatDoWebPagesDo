@@ -1,0 +1,37 @@
+{
+  "name": "wtfWebPagesDo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "chalk": "^2.1.0",
+    "chrome-remote-interface": "^0.24.5",
+    "commander": "^2.11.0",
+    "eventemitter3": "^2.0.3",
+    "filenamify-url": "^1.0.0",
+    "fs-extra": "^4.0.2",
+    "humanize": "^0.0.9",
+    "json2csv": "^3.11.2",
+    "lodash": "^4.17.4",
+    "microtime": "^2.1.6",
+    "mime": "^2.0.1",
+    "moment": "^2.18.1",
+    "moment-precise-range-plugin": "^1.2.4",
+    "normalize-url": "^1.9.1",
+    "parse-link-header": "^1.0.1",
+    "pretty-error": "^2.1.1",
+    "set-cookie-parser": "^2.0.0",
+    "twix": "^1.2.0",
+    "validator": "^8.2.0"
+  },
+  "scripts": {
+    "lint": "standard | snazzy",
+    "lint-fix": "standard --fix"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^4.0.2",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  }
+}
